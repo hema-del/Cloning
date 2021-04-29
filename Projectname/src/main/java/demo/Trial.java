@@ -12,7 +12,9 @@ public class Trial{
 		driver.get("https://www.google.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://www.omayo.blogspot.com");
+
 		//testing conflicts
+		driver.quit();
 	}
 }
 
