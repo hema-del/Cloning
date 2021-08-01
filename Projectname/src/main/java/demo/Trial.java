@@ -17,6 +17,8 @@ public class Trial{
 		driver.quit();
 		
 		System.out.println("Test completed");
+		
+		//Test
 	}
 }
 
