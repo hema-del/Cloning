@@ -15,6 +15,8 @@ public class Trial{
 
 		//testing conflicts
 		driver.quit();
+		
+		System.out.println("Test completed");
 	}
 }
 
